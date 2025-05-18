@@ -10,112 +10,96 @@
       margin: 0;
       font-family: 'Georgia', serif;
       background-color: #fefdf9;
-      color: #374045;
+      color: #333;
       line-height: 1.6;
     }
     header {
-      background-color: #fefdf9;
-      padding: 50px 20px 30px;
       text-align: center;
+      padding: 60px 20px 30px;
+      background-color: #fff;
     }
     header img {
-      width: 120px;
-      margin-bottom: 10px;
+      width: 100px;
+      margin-bottom: 20px;
     }
     header h1 {
       font-size: 36px;
-      margin: 10px 0 5px;
+      letter-spacing: 1px;
+      margin: 0;
       color: #4a5a61;
     }
     header p {
       font-size: 18px;
-      color: #6b7a81;
+      color: #7c8a8f;
+      margin-top: 8px;
     }
     section {
-      padding: 60px 20px;
-      max-width: 900px;
+      max-width: 1000px;
       margin: auto;
+      padding: 60px 20px;
     }
-    section h2 {
-      font-size: 26px;
-      margin-bottom: 20px;
+    h2 {
+      font-size: 28px;
+      margin-bottom: 30px;
       color: #4a5a61;
+      text-align: center;
     }
     .gallery {
       display: flex;
       flex-wrap: wrap;
+      gap: 20px;
       justify-content: center;
     }
     .gallery img {
       width: 100%;
-      max-width: 280px;
-      margin: 10px;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      max-width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
     }
-    .contact-form input, .contact-form textarea {
-      width: 100%;
-      padding: 12px;
-      margin: 10px 0;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      font-size: 16px;
-    }
-    .contact-form button {
-      background-color: #4a5a61;
-      color: #fff;
-      padding: 12px 24px;
-      border: none;
-      border-radius: 6px;
-      font-size: 16px;
-      cursor: pointer;
+    .about {
+      font-size: 18px;
+      color: #444;
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
     }
     footer {
       text-align: center;
+      padding: 40px 20px;
       font-size: 14px;
-      padding: 30px;
       color: #999;
+      background: #f6f6f6;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <img src="ChatGPT Image 21 апр. 2025 г., 21_24_06.png">
+    <img src="ChatGPT Image 21 апр. 2025 г., 21_24_06.png" alt="Логотип JUV">
     <h1>JUV</h1>
-    <p>Украшения с душой — серебро, натуральные камни, уникальный дизайн</p>
+    <p>Серебро и редкие камни. Украшения с душой и характером.</p>
   </header>
 
   <section>
-    <h2>О нас</h2>
-    <p>JUV — семейная ювелирная мастерская, где каждое изделие создаётся вручную с вниманием к деталям и уважением к материалу. Мы работаем с серебром и натуральными камнями, вдохновляясь природой, архитектурой и искусством. Наши украшения — это не просто аксессуары, а отражение характера и внутренней силы.</p>
+    <h2>О бренде</h2>
+    <div class="about">
+      JUV — это семейная ювелирная мастерская, где каждое украшение создаётся с вниманием, уважением к материалу и эстетикой высокого класса.
+      Мы вдохновляемся природой, архитектурой, смыслом форм. В центре — серебро и натуральные камни, которые становятся частью личной истории.
+    </div>
   </section>
 
   <section>
     <h2>Галерея</h2>
     <div class="gallery">
-      <img src="20250517_1108_Серьги со звездой_remix_01jvemj25cf1xv4p7nytc1m9js.png">
-      <img src="20250506_2115_Жемчужное кольцо на белом_remix_01jtkcwbrff688nyxg7cdxj8z0 (1).png">
-      <img src="20250517_1116_Серьги на белом фоне_remix_01jven06bwfcztsb9afpnhsggg.png">
+      <img src="20250506_2115_Жемчужное кольцо на белом_remix_01jtkcwbrff688nyxg7cdxj8z0 (1).png" alt="Жемчужное кольцо">
+      <img src="20250517_1108_Серьги со звездой_remix_01jvemj25cf1xv4p7nytc1m9js.png" alt="Серьги со звездой">
+      <img src="20250517_1116_Серьги на белом фоне_remix_01jven06bwfcztsb9afpnhsggg.png" alt="Серьги на белом фоне">
     </div>
-  </section>
-
-  <section>
-    <h2>Предстоящие события</h2>
-    <p>Мы участвуем в маркетах и выставках в Москве. Следите за новостями — скоро опубликуем расписание.</p>
-  </section>
-
-  <section>
-    <h2>Связаться с нами</h2>
-    <form class="contact-form">
-      <input type="text" placeholder="Ваше имя" required>
-      <input type="email" placeholder="Email" required>
-      <textarea placeholder="Ваше сообщение" rows="5"></textarea>
-      <button type="submit">Отправить</button>
-    </form>
   </section>
 
   <footer>
     &copy; 2025 JUV. Все права защищены.
   </footer>
+
 </body>
 </html>
